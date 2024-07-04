@@ -3,7 +3,7 @@ function checkAnswer() {
     const result = document.getElementById('result');
 
     if (answerInput === "28") {
-        result.textContent = "未決定";
+        result.textContent = "出席番号3番";
     } else {
         result.textContent = "残念...";
     }
